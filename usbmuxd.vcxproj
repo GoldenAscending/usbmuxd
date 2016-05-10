@@ -164,6 +164,7 @@ copy $(ProjectDir)packages\zlib.redist.1.2.8.7\build\native\bin\v110\Win32\Relea
       <Command>copy $(ProjectDir)packages\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\libxml2.dll $(OutDir)
 copy $(ProjectDir)packages\pthreads.redist.2.9.1.4\build\native\bin\v110\x64\Release\dynamic\cdecl\libpthread.dll $(OutDir)
 copy $(ProjectDir)ext\libusb\MS64\dll\libusb-1.0.dll $(OutDir)
+copy $(ProjectDir)ext\libusb-win32-bin-1.2.6.0\bin\amd64\libusb0.dll $(OutDir)
 copy $(ProjectDir)packages\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl\libiconv.dll $(OutDir)
 copy $(ProjectDir)packages\zlib.redist.1.2.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\zlib.dll $(OutDir)</Command>
       <Outputs>$(OutDir)libxml2.dll;$(OutDir)\libpthread.dll;$(OutDir)\libusb-1.0.dll;$(OutDir)\libiconv.dll;$(OutDir)\zlib.dll;%(Outputs)</Outputs>
@@ -218,6 +219,7 @@ copy $(ProjectDir)packages\zlib.redist.1.2.8.7\build\native\bin\v110\Win32\Relea
       <Command>copy $(ProjectDir)packages\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\libxml2.dll $(OutDir)
 copy $(ProjectDir)packages\pthreads.redist.2.9.1.4\build\native\bin\v110\x64\Release\dynamic\cdecl\libpthread.dll $(OutDir)
 copy $(ProjectDir)ext\libusb\MS64\dll\libusb-1.0.dll $(OutDir)
+copy $(ProjectDir)ext\libusb-win32-bin-1.2.6.0\bin\amd64\libusb0.dll $(OutDir)
 copy $(ProjectDir)packages\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl\libiconv.dll $(OutDir)
 copy $(ProjectDir)packages\zlib.redist.1.2.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\zlib.dll $(OutDir)</Command>
       <Outputs>$(OutDir)libxml2.dll;$(OutDir)\libpthread.dll;$(OutDir)\libusb-1.0.dll;$(OutDir)\libiconv.dll;$(OutDir)\zlib.dll;%(Outputs)</Outputs>
