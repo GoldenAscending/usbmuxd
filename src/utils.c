@@ -30,7 +30,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <time.h>
+#ifndef _MSC_VER
 #include <sys/time.h>
+#endif
 #ifdef __APPLE__
 #include <mach/mach_time.h>
 #endif
