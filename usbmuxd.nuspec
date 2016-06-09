@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>usbmuxd</id>
+    <version>$version$</version>
+    <authors>libimobiledevice, Quamotion</authors>
+    <owners>Quamotion</owners>
+    <title>iOS USB Multiplexor Daemon (SharpAdbClient)</title>
+    <description>A socket daemon to multiplex connections from and to iOS devices (usbmuxd).</description>
+    <projectUrl>https://github.com/libimobiledevice-win32/usbmuxd</projectUrl>
+    <licenseUrl>hhttps://github.com/libimobiledevice-win32/usbmuxd/master/COPYING.GPLv2</licenseUrl>
+    <tags>ios usb usbmuxd</tags>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="Win32\Release\usbmuxd.exe" target="runtimes\win7-x86\native\" />
+    <file src="Win32\Release\libusb-1.0.dll" target="runtimes\win7-x86\native\" />
+    <file src="x64\Release\usbmuxd.exe" target="runtimes\win7-x64\native\" />
+    <file src="x64\Release\libusb-1.0.dll" target="runtimes\win7-x64\native\" />
+  </files>
+</package>
