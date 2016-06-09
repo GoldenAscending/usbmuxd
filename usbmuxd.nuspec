@@ -15,7 +15,9 @@
   <files>
     <file src="Win32\Release\usbmuxd.exe" target="runtimes\win7-x86\native\" />
     <file src="Win32\Release\libusb-1.0.dll" target="runtimes\win7-x86\native\" />
+    <file src="Win32\Release\libusb0_x86.dll" target="runtimes\win7-x86\native\" />
     <file src="x64\Release\usbmuxd.exe" target="runtimes\win7-x64\native\" />
     <file src="x64\Release\libusb-1.0.dll" target="runtimes\win7-x64\native\" />
+    <file src="x64\Release\libusb0.dll" target="runtimes\win7-x64\native\" />
   </files>
 </package>

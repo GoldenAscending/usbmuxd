@@ -23,4 +23,4 @@ on_success:
   - cmd: appveyor PushArtifact usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x86.zip
   - cmd: appveyor PushArtifact usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64-debug.zip
   - cmd: appveyor PushArtifact usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64.zip
-  - cmd: appveyor PushArtifact usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%.nupkg
+  - cmd: appveyor PushArtifact usbmuxd.1.1.0.%APPVEYOR_BUILD_NUMBER%.nupkg
