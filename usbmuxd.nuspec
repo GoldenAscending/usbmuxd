@@ -5,7 +5,7 @@
     <version>$version$</version>
     <authors>libimobiledevice, Quamotion</authors>
     <owners>Quamotion</owners>
-    <title>iOS USB Multiplexor Daemon (SharpAdbClient)</title>
+    <title>iOS USB Multiplexor Daemon (usbmuxd)</title>
     <description>A socket daemon to multiplex connections from and to iOS devices (usbmuxd).</description>
     <projectUrl>https://github.com/libimobiledevice-win32/usbmuxd</projectUrl>
     <licenseUrl>hhttps://github.com/libimobiledevice-win32/usbmuxd/master/COPYING.GPLv2</licenseUrl>
