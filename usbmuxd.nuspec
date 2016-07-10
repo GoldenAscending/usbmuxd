@@ -21,7 +21,8 @@
     <file src="packages\pthreads.redist.2.9.1.4\build\native\bin\v110\Win32\Release\dynamic\cdecl\libpthread.dll" target="runtimes\win7-x86\native\" />
     <file src="packages\libxml2.redist.2.7.8.7\build\native\bin\v110\Win32\Release\dynamic\cdecl\libxml2.dll" target="runtimes\win7-x86\native\" />
     <file src="packages\libiconv.redist.1.14.0.11\build\native\bin\v110\Win32\Release\dynamic\cdecl\libiconv.dll" target="runtimes\win7-x86\native\" />
-    
+    <file src="packages\zlib.redist.1.2.8.7\build\native\bin\v110\Win32\Release\dynamic\cdecl\zlib.dll" target="runtimes\win7-x86\native\" />
+
     <file src="x64\Release\usbmuxd.exe" target="runtimes\win7-x64\native\" />
     <file src="x64\Release\libusb-1.0.dll" target="runtimes\win7-x64\native\" />
     <file src="x64\Release\libusb0.dll" target="runtimes\win7-x64\native\" />
@@ -30,5 +31,6 @@
     <file src="packages\pthreads.redist.2.9.1.4\build\native\bin\v110\x64\Release\dynamic\cdecl\libpthread.dll" target="runtimes\win7-x64\native\" />
     <file src="packages\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\libxml2.dll" target="runtimes\win7-x64\native\" />
     <file src="packages\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl\libiconv.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\zlib.redist.1.2.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\zlib.dll" target="runtimes\win7-x64\native\" />
   </files>
 </package>
