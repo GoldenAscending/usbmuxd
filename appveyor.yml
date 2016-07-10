@@ -5,6 +5,8 @@ before_build:
   - cmd: 7z x ext\libusb-1.0.20.7z -oext\libusb
   - cmd: wget "http://downloads.sourceforge.net/project/libusb-win32/libusb-win32-releases/1.2.6.0/libusb-win32-bin-1.2.6.0.zip" -O ext\libusb-win32-bin-1.2.6.0.zip
   - cmd: 7z x ext\libusb-win32-bin-1.2.6.0.zip -oext\
+  - cmd: wget "http://downloads.sourceforge.net/project/libusbk/libusbK-release/3.0.7.0/libusbK-3.0.7.0-bin.7z" -O ext\libusbK-3.0.7.0-bin.7z
+  - cmd: 7z x ext\libusbK-3.0.7.0-bin.7z -oext\
   - cmd: nuget restore
 
 build_script:
