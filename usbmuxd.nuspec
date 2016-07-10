@@ -17,9 +17,11 @@
     <file src="Win32\Release\libusb-1.0.dll" target="runtimes\win7-x86\native\" />
     <file src="Win32\Release\libusb0_x86.dll" target="runtimes\win7-x86\native\" />
     <file src="ext\libusbK-3.0.7.0-bin\bin\dll\x86\libusbK.dll" target="runtimes\win7-x86\native\" />
+    <file src="packages\fix8.dependencies.getopt.1.0.20151130.1\build\native\bin\Win32\v140\Release\getopt.dll" target="runtimes\win7-x86\native\" />
     <file src="x64\Release\usbmuxd.exe" target="runtimes\win7-x64\native\" />
     <file src="x64\Release\libusb-1.0.dll" target="runtimes\win7-x64\native\" />
     <file src="x64\Release\libusb0.dll" target="runtimes\win7-x64\native\" />
     <file src="ext\libusbK-3.0.7.0-bin\bin\dll\amd64\libusbK.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\fix8.dependencies.getopt.1.0.20151130.1\build\native\bin\x64\v140\Release\getopt.dll" target="runtimes\win7-x64\native\" />
   </files>
 </package>
