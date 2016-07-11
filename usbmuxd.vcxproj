@@ -228,6 +228,9 @@ copy $(ProjectDir)packages\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\R
 copy $(ProjectDir)packages\zlib.redist.1.2.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\zlib.dll $(OutDir)</Command>
       <Outputs>$(OutDir)libxml2.dll;$(OutDir)\libpthread.dll;$(OutDir)\libusb-1.0.dll;$(OutDir)\libiconv.dll;$(OutDir)\zlib.dll;%(Outputs)</Outputs>
     </CustomBuildStep>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)ext\libusbK-3.0.7.0-bin\bin\dll\amd64\libusbK.dll $(OutDir)</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
