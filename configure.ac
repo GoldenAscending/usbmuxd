@@ -93,9 +93,7 @@ AC_TYPE_UINT32_T
 AC_TYPE_UINT8_T
 
 # Checks for library functions.
-AC_FUNC_MALLOC
-AC_FUNC_REALLOC
-AC_CHECK_FUNCS([strcasecmp strdup strerror strndup stpcpy])
+AC_CHECK_FUNCS([malloc realloc strcasecmp strdup strerror strndup stpcpy])
 AC_CHECK_FUNCS([ppoll])
 
 # Check for operating system
