@@ -8,7 +8,7 @@
     <title>iOS USB Multiplexor Daemon (usbmuxd)</title>
     <description>A socket daemon to multiplex connections from and to iOS devices (usbmuxd).</description>
     <projectUrl>https://github.com/libimobiledevice-win32/usbmuxd</projectUrl>
-    <licenseUrl>hhttps://github.com/libimobiledevice-win32/usbmuxd/master/COPYING.GPLv2</licenseUrl>
+    <licenseUrl>https://github.com/libimobiledevice-win32/usbmuxd/master/COPYING.GPLv2</licenseUrl>
     <tags>ios usb usbmuxd</tags>
     <language>en-US</language>
   </metadata>
