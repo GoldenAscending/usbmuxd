@@ -14,10 +14,10 @@ build_script:
   - msbuild usbmuxd.sln /p:Configuration=Release /p:Platform=x86 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
   - msbuild usbmuxd.sln /p:Configuration=Debug /p:Platform=x64 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
   - msbuild usbmuxd.sln /p:Configuration=Release /p:Platform=x64 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
-  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x86-debug.zip" .\Win32\Debug\usbmuxd.exe .\Win32\Debug\getopt.dll .\Win32\Debug\libiconv.dll .\Win32\Debug\libpthread.dll .\Win32\Debug\libusb-1.0.dll .\Win32\Debug\libxml2.dll .\Win32\Debug\zlib.dll .\Win32\Debug\libusb0_x86.dll
-  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x86.zip" .\Win32\Release\usbmuxd.exe .\Win32\Release\getopt.dll .\Win32\Release\libiconv.dll .\Win32\Release\libpthread.dll .\Win32\Release\libusb-1.0.dll .\Win32\Release\libxml2.dll .\Win32\Release\zlib.dll .\Win32\Release\libusb0_x86.dll
-  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64-debug.zip" .\x64\Debug\usbmuxd.exe .\x64\Debug\getopt.dll .\x64\Debug\libiconv.dll .\x64\Debug\libpthread.dll .\x64\Debug\libusb-1.0.dll .\x64\Debug\libxml2.dll .\x64\Debug\zlib.dll .\x64\Debug\libusb0.dll
-  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64.zip" .\x64\Release\usbmuxd.exe .\x64\Release\getopt.dll .\x64\Release\libiconv.dll .\x64\Release\libpthread.dll .\x64\Release\libusb-1.0.dll .\x64\Release\libxml2.dll .\x64\Release\zlib.dll .\x64\Release\libusb0.dll
+  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x86-debug.zip" .\Win32\Debug\usbmuxd.exe .\Win32\Debug\getopt.dll .\Win32\Debug\libiconv.dll .\Win32\Debug\libpthread.dll .\Win32\Debug\libusb-1.0.dll .\Win32\Debug\zlib.dll .\Win32\Debug\libusb0_x86.dll
+  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x86.zip" .\Win32\Release\usbmuxd.exe .\Win32\Release\getopt.dll .\Win32\Release\libiconv.dll .\Win32\Release\libpthread.dll .\Win32\Release\libusb-1.0.dll .\Win32\Release\zlib.dll .\Win32\Release\libusb0_x86.dll
+  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64-debug.zip" .\x64\Debug\usbmuxd.exe .\x64\Debug\getopt.dll .\x64\Debug\libiconv.dll .\x64\Debug\libpthread.dll .\x64\Debug\libusb-1.0.dll .\x64\Debug\zlib.dll .\x64\Debug\libusb0.dll
+  - cmd: 7z a -tzip "usbmuxd-1.1.0.%APPVEYOR_BUILD_NUMBER%-windows-x64.zip" .\x64\Release\usbmuxd.exe .\x64\Release\getopt.dll .\x64\Release\libiconv.dll .\x64\Release\libpthread.dll .\x64\Release\libusb-1.0.dll .\x64\Release\zlib.dll .\x64\Release\libusb0.dll
   - cmd: nuget pack usbmuxd.nuspec -Version 1.1.0.%APPVEYOR_BUILD_NUMBER%
 
 on_success:
